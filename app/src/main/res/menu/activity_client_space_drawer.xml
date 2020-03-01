@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="Espace locataire">
+        <menu>
+
+
+            <item
+                android:id="@+id/mes_reservation"
+                android:icon="@drawable/mes_reservation"
+                android:title="Consulter réservations" />
+        </menu>
+    </item>
+
+
+    <item android:title="Espace Propriétaire">
+        <menu>
+
+            <item
+                android:id="@+id/proposer_bien"
+                android:icon="@drawable/mes_reservation"
+                android:title="Proposer un bien" />
+            <item
+                android:id="@+id/mes_biens"
+                android:icon="@drawable/mes_reservation"
+                android:title="Consulter état bien" />
+
+            <item
+                android:id="@+id/valider_bien"
+                android:icon="@drawable/bien_detaille_yes"
+                android:title="Valider Location d'un bien" />
+        </menu>
+    </item>
+
+    <item android:title="Autre">
+        <menu>
+
+            <item
+                android:id="@+id/editer_profile"
+                android:icon="@drawable/editerprogile"
+                android:title="Editer Profile" />
+
+
+            <item
+                android:id="@+id/deconnecter"
+                android:icon="@drawable/deconnecter"
+                android:title="Déconnecter" />
+        </menu>
+    </item>
+
+
+
+
+
+
+
+
+
+
+</menu>

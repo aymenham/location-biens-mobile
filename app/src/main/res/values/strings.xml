@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Ekrili</string>
+
+    <string name="first_slid_description"> Louer un bien et déposer votre bien Facilement .   </string>
+
+    <string name="second_slid_description"> Louez sans difficulté avec le contrat-type de location.  </string>
+
+    <string name="theard_slid_description"> Inscrivez vous gratuitement et bénéficier de tout nos services .  </string>
+
+    <string name="emptey_search"> Désolé pas de résultat pour votre recherche</string>
+
+    <string name="bien_detaille_error"> PAS d'informations sur ce bien </string>
+    <string name="regle_moifier_prix"> Le prix doit être \n pas moins de 5000 DA \net \n pas plus de 100 000 DA </string>
+
+
+    <array name="colors">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/colorPrimary</item>
+
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description_exapmle">Appartement sur les hauteurs d\'Alger meublé et équipé. 2 chambres, cuisine américaine, salon, parking et terrasse avec vue sur la baie d\'Alger. Transfert aéroport possible 2- Bedroom-appartment located on the heights of Algiers. Fully furnished and equipped with a view on the bay of Algiers. Airport transfer possible</string>
+
+    <string-array name="type_bien">
+        <item></item>
+        <item>Appartement</item>
+        <item> Maison</item>
+        <item>Terrain</item>
+        <item>Garage</item>
+
+    </string-array>
+
+    <string-array name="type_terrain">
+        <item></item>
+        <item> Nu </item>
+        <item>Agricole </item>
+        <item> Jardin</item>
+
+
+    </string-array>
+
+    <string-array name="wilaya">
+        <item></item>
+        <item> 1 Adrar </item>
+        <item> 2 Chlef </item>
+        <item> 3 Laghouat </item>
+        <item> 4 Oum El-Bouaghi </item>
+        <item> 5 Batna </item>
+        <item> 6 Béjaïa </item>
+        <item> 7 Biskra </item>
+        <item> 8 Béchar </item>
+        <item> 9 Blida </item>
+        <item> 10 Bouira </item>
+        <item> 11 Tamanrasset </item>
+        <item> 12 Tébessa </item>
+        <item> 13 Tlemcen </item>
+        <item> 14 Tiaret </item>
+        <item> 15 Tizi Ouzou </item>
+        <item> 16 Alger </item>
+        <item> 17 Djelfa </item>
+        <item> 18 Jijel </item>
+        <item> 19 Sétif </item>
+        <item> 20 Saida </item>
+        <item> 21 Skikda </item>
+        <item> 22 Sidi Bel Abbes </item>
+        <item> 23 Annaba </item>
+        <item> 24 Guelma </item>
+        <item> 25 Constantine </item>
+        <item> 26 Médéa </item>
+        <item> 27 Mostaganem </item>
+        <item> 28 M'Sila</item>
+        <item> 29 Mascara </item>
+        <item> 30 Ouargla </item>
+        <item> 31 Oran </item>
+        <item> 32 El-Bayadh </item>
+        <item> 33 Illizi </item>
+        <item> 34 Bord-Bou-Arréridj </item>
+        <item> 35 Boumerdès </item>
+        <item> 36 El-Taref </item>
+        <item> 37 Tindouf </item>
+        <item> 38 Tissemsilt </item>
+        <item> 39 El Oued </item>
+        <item> 40 Khenchela </item>
+        <item> 41 Souk Ahras </item>
+        <item> 42 Tipaza </item>
+        <item> 43 Mila </item>
+        <item> 44 Aïn Defla </item>
+        <item> 45 Naâma </item>
+        <item> 46 Aïn Témouchent </item>
+        <item> 47 Ghardaïa </item>
+        <item> 48 Relizane </item>
+
+    </string-array>
+    <string name="title_activity_client_space">Espace client</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+</resources>

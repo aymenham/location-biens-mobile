@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fragments.ValiderLocation">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_accepte_location"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/list_valider_location"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="List Vide"
+        android:layout_marginTop="180dp"
+        android:visibility="gone"
+        android:textAlignment="center"
+        android:textSize="35sp"
+
+        />
+
+
+
+
+
+</LinearLayout>

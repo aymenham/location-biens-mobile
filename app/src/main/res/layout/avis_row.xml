@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+
+        >
+
+        <TextView
+            android:id="@+id/image_avis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/avis_image"
+            android:gravity="center"
+            android:text="H A"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_marginLeft="15dp"
+           >
+
+           <TextView
+               android:id="@+id/name_avis"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:text="Hamidechi Aymen"
+               android:textColor="@android:color/black" />
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="horizontal"
+               android:layout_marginTop="5dp"
+               >
+
+               <RatingBar
+                   android:id="@+id/note_avis"
+                   style="?android:attr/ratingBarStyleSmall"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+
+                   android:layout_gravity="center" />
+
+               <TextView
+                   android:id="@+id/date_avis"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_marginLeft="20dp"
+
+                   android:text="10/05/2018" />
+           </LinearLayout>
+
+           <TextView
+               android:id="@+id/comment_avis"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:fontFamily="monospace"
+               android:text="une belle maison "
+               android:textColor="#00000F" />
+       </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

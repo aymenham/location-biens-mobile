@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fragments.BienEnAttente">
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bien en attente de validation d'adminstration"
+        android:textSize="15dp"
+        android:fontFamily="monospace"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyler_bien_enattent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        ></android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/list_vide_bien_en_attente"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="List Vide"
+        android:layout_marginTop="180dp"
+        android:visibility="gone"
+        android:textAlignment="center"
+        android:textSize="35sp"
+
+        />
+
+
+
+</LinearLayout>

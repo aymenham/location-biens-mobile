@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#066781</color>
+    <color name="colorPrimaryDark">#fc4628</color>
+    <color name="colorAccent">#ffdd1c</color>
+
+    <color name="dot_dark_screen1">#d1395c</color>
+
+    <color name="background_login">#b46fd9</color>
+
+    <color name="text_color">#716a6a</color>
+
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/ekrili_logo"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/regle_moifier_prix"
+        android:textAlignment="center"
+        android:fontFamily="monospace"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/prix_modifier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1200 DA"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:inputType="numberDecimal"
+        android:background="@drawable/comment_avis"
+
+        />
+
+</LinearLayout>
